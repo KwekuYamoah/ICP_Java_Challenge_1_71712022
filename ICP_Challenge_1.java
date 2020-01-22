@@ -49,11 +49,11 @@ public class ICP_Challenge_1 {
         int stockInput = stocksToCreate.nextInt ();
         Integer[] forQuant = new Integer [stockInput];
         for(int i = 0 ; i < forQuant.length;i ++){
-            System.out.println ("Enter the name of the stock(Eg: Pepsi): \n");
+            System.out.print ("Enter the name of the stock(Eg: Pepsi): \n");
             String name = nameofItem.nextLine ();
-            System.out.println ("Enter the quantity of the stock(Eg:14): \n");
+            System.out.print ("Enter the quantity of the stock(Eg:14): \n");
             int quantity = quantofItem.nextInt ();
-            System.out.println ("Enter the price of the stock(Eg:3.00): \n");
+            System.out.print ("Enter the price of the stock(Eg:3.00): \n");
             double price = priceofItem.nextDouble ();
             //Creating an instance of the Item class;
             Item temp = new Item (name,quantity,price);
@@ -115,7 +115,7 @@ public class ICP_Challenge_1 {
      * @throws IOException
      */
     public  void writeFile(String filename, @NotNull Item stock) throws IOException {
-        String itemAttribute = stock.getItemName () + "\t\t" + stock.getQuantity () + "\t\t" + stock.getPrice ();
+        String itemAttribute = stock.getItemName () + "\t\t" + stock.getQuantity () + "\t\tGHS" + stock.getPrice ();
 
         /**
          * Creating a new file writer instance
@@ -175,7 +175,7 @@ public class ICP_Challenge_1 {
         /**Reading lines and splitting the data
          into an array of String stocks, called words
          */
-        System.out.println ("Name" +"\tQuantity " + "\tPrice");
+
         while ((line = buffRead.readLine ()) != null) {
             data = line;
 
