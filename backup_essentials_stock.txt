@@ -1,0 +1,11 @@
+
+Bread		1001		GHS1.0
+PlantainChips		500		GHS1.5
+Voltic		50		GHS2.5
+Sandwhich		100		GHS10.0
+WelchSnacks		65		GHS9.0
+Pepsodent		12		GHS6.0
+Mentos		90		GHS2.5
+FamousAmos		60		GHS3.5
+Ruler		10		GHS4.0
+Pen		200		GHS1.0
