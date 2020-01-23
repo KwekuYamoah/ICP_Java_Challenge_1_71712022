@@ -8,8 +8,6 @@ import java.io.IOException;
 public class testICP_Challenge {
 
     public static void main(String[] args) throws IOException {
-        int jh = (int) 5.5;
-        System.out.println (jh);
         System.out.println ("Welcome to the test for Essentials stock management system"
                             + "\n Please sit back and enjoy");
         ICP_Challenge_1 Essentials = new ICP_Challenge_1 ();
