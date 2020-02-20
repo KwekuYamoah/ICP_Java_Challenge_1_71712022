@@ -8,6 +8,7 @@ import java.io.IOException;
 public class testICP_Challenge {
 
     public static void main(String[] args) throws IOException {
+        System.out.println (!( ( 6 < 5) && (4 < 3)));
         System.out.println ("Welcome to the test for Essentials stock management system"
                             + "\n Please sit back and enjoy");
         ICP_Challenge_1 Essentials = new ICP_Challenge_1 ();

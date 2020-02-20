@@ -4,7 +4,8 @@ public class Car {
     private String color;
     private int numberOfPassengers;
     private double engineSize;
-
+    private static final Car[] garage = new Car[20];
+    
     public Car() {
         name = null;
         color = null;
@@ -68,5 +69,16 @@ public class Car {
 
     public void setEngineSize(double engineSize) {
         this.engineSize = engineSize;
+    }
+
+    @Override
+    public String toString() {
+        return "Car{" +
+                "numberOfDoors=" + numberOfDoors +
+                ", name='" + name + '\'' +
+                ", color='" + color + '\'' +
+                ", numberOfPassengers=" + numberOfPassengers +
+                ", engineSize=" + engineSize +
+                '}';
     }
 }
